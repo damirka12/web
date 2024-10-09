@@ -1,0 +1,109 @@
+html{
+    background: #e5e1d7;
+    /* background: #f6ac6c; */
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Arial';
+}
+
+header h1, header p {
+    margin: 5px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+div h2 {
+    font-family: 'Arial';
+}
+
+div p {
+    font-family: 'Arial', sans-serif;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px; 
+}
+footer p{
+    margin: 5px;
+}
+
+.hobbies-table {
+    width: 50%; 
+    text-align: center; 
+    margin: 0 auto; 
+}
+
+.hobbies-table td {
+    border: none;
+    padding: 20px; 
+    vertical-align: top; 
+}
+
+.hobbies-table img {
+    width: 100px; 
+    height: auto;
+}
+
+.hobbies-table p {
+    margin-top: 10px;
+    font-family: 'Arial';
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.interesting-facts {
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Arial';
+    align-items: center;
+}
+
+.interesting-facts h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.interesting-facts-table {
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.interesting-facts-table th {
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.interesting-facts-table td {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.interesting-facts-table th, .interesting-facts-table td {
+    border: 3px solid black;
+}
+

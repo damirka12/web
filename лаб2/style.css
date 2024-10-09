@@ -1,0 +1,161 @@
+html{
+    background: #e5e1d7;
+    /* background: #f6ac6c; */
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Arial';
+}
+
+header h1, header p {
+    margin: 5px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+div p {
+    font-family: 'Arial', sans-serif;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px; 
+}
+footer p{
+    margin: 5px;
+}
+
+.hobbies-table {
+    width: 50%; 
+    text-align: center; 
+    margin: 0 auto; 
+}
+
+.hobbies-table td {
+    border: none;
+    padding: 20px; 
+    vertical-align: top; 
+}
+
+
+
+.hobbies-table p {
+    margin-top: 10px;
+    font-family: 'Arial';
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.interesting-facts {
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Arial';
+    align-items: center;
+}
+
+.interesting-facts h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.interesting-facts-table {
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.interesting-facts-table th {
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.interesting-facts-table td {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.interesting-facts-table th, .interesting-facts-table td {
+    border: 3px solid black;
+}
+
+
+/* Для лабы 2 */
+/* Для лабы 2 */
+/* Для лабы 2 */
+/* Для лабы 2 */
+/* Для лабы 2 */
+/* Для лабы 2 */
+/* Для лабы 2 */
+/* Для лабы 2 */
+/* Для лабы 2 */
+/* Для лабы 2 */
+img:hover {
+    transform: scale(1.5);
+}
+img {
+    transition: transform 0.3s ease;
+}
+
+footer a {
+    display: inline-block;
+    padding: 5px 8px;
+    margin: 6px 0;
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+footer a:hover {
+    background-color: #f6ac6c;
+}
+
+.grid-container {
+    width: 50%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+#hobbies-table img {
+    width: 100px; 
+    height: auto;
+}
+
+div h2 {
+    font-family: 'Comic Sans MF';
+}
