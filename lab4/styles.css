@@ -1,0 +1,14 @@
+body {
+    background-image: url('img/newbackground.png');
+    background-size: cover;
+    background-position: center;
+}
+.dices{
+    width: 80px; height: 80px;
+    animation: roll 5s linear 0s infinite;
+}
+
+@keyframes roll {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
