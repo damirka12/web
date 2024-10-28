@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+    #fon {
+    max-width: 300px;
+    }
+
+    #track-list li {
+    cursor: pointer;
+
+    }
+    
+    .musB {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="container d-flex flex-column align-items-center mt-5 border rounded">
+        <img id="fon" src="logo.png" alt="logo" class="img-fluid rounded mb-3">
+        
+        <h3 id="musName" class="text-center">Музыка N</h3>
+        
+        <div class="d-flex justify-content-center my-3">
+            <button id="next" class="btn btn-secondary me-2" onclick="nextButton()">Next</button>
+            <button id="play-pause" class="btn btn-primary me-2" onclick="playButton()">Play</button>
+            <button id="pause" class="btn btn-info me-2" onclick="pauseButtonTap()">Pause</button>
+        </div>
+
+        <ul id="track-list" class="list-unstyled justify-content-center">
+            <li><button class = "musB btn btn-link"  data-sound = "1">Красивая мелодия на звонок - I Like Chopin (Djk)</button></li>
+            <li><button class = "musB btn btn-link"  data-sound = "2">Музыка из фильма Возвращение Будулая</button></li>
+            <li><button class = "musB btn btn-link"  data-sound = "3">Красивая музыка на телефон</button></li>
+        </ul>
+    </div>
+
+    <script src="js.js"></script>
+</body>
+</html>
